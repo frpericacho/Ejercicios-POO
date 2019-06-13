@@ -3,6 +3,8 @@
 #include <string>
 #include "presupuesto.hpp"
 
+class presupuesto;
+
 class reserva {
  public:
   reserva(int num, std::string fr, double s)

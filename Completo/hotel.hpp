@@ -5,6 +5,9 @@
 #include "ciudad.hpp"
 #include "presupuesto.hpp"
 
+class presupuesto;
+class ciudad;
+
 class hotel {
  public:
   hotel(std::string nom, std::string dir, int estr):nom_(nom),dir_(dir),estrellas_(estr){}

@@ -5,8 +5,8 @@
 
 class confirmada : public reserva {
  public:
-  confirmada(std::string fc, std::string fp)
-      : fecha_confir(fc), forma_pago(fp) {}
+  confirmada(int n,std::string f, double s, std::string fc, std::string fp)
+      : reserva(n,f,s), fecha_confir(fc), forma_pago(fp) {}
 
  private:
   std::string fecha_confir;

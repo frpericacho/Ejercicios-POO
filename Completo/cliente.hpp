@@ -4,6 +4,8 @@
 #include <string>
 #include <set>
 
+class viaje;
+
 class cliente {
  public:
   cliente(std::string dni,std::string nom,std::string dir,int telf):dni_(dni),nombre_(nom),dir_(dir),telf_(telf){}

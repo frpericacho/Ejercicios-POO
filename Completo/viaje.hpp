@@ -1,9 +1,12 @@
 #ifndef VIAJE_HPP
 #define VIAJE_HPP
-#include "cliente.hpp"
-#include "ciudad.hpp"
-#include "presupuesto.hpp"
 #include <string>
+#include <set>
+#include "presupuesto.hpp"
+
+class cliente;
+class ciudad;
+class presupuesto;
 
 class viaje {
  public:

@@ -4,6 +4,9 @@
 #include "hotel.hpp"
 #include "reserva.hpp"
 
+class hotel;
+class reserva;
+
 class presupuesto {
  public:
   presupuesto(std::string fs, std::string hs, std::string fl, std::string hl,
